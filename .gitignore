@@ -47,6 +47,13 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# .NET build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
 # Optional npm cache directory
 .npm
 
