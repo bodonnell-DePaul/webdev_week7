@@ -48,11 +48,8 @@ web_modules/
 *.tsbuildinfo
 
 # .NET build artifacts
-bin/
-obj/
-*.dll
-*.exe
-*.pdb
+**/bin/
+**/obj/
 
 # Optional npm cache directory
 .npm
