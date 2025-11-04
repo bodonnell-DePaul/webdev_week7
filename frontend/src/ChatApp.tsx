@@ -23,7 +23,7 @@ export default function ChatApp() {
   useEffect(() => {
     // Create SignalR connection
     const newConnection = new signalR.HubConnectionBuilder()
-      .withUrl('http://localhost:5000/chatHub')
+      .withUrl('http://localhost:5062/chatHub')
       .withAutomaticReconnect()
       .configureLogging(signalR.LogLevel.Information)
       .build();
